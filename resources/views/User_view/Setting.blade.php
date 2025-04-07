@@ -6,7 +6,7 @@
 
     @vite('resources/css/app.css')
 </head>
-body>
+
     <div class="min-h-screen bg-gray-100">
         <!-- Top Navigation Bar -->
         <nav class="bg-white shadow-md">

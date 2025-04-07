@@ -6,7 +6,7 @@
 
     @vite('resources/css/app.css')
 </head>
-body>
+
     <div class="min-h-screen bg-gray-100">
         <!-- Top Navigation Bar -->
         <nav class="bg-white shadow-md">
@@ -73,7 +73,7 @@ body>
 
                             <hr class="my-4 border-gray-200">
 
-                            <a href={{ route('setting') }} class="block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-100">
+                            <a href={{ route('AdminSetting') }} class="block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-100">
                                 <i class="mr-2 fas fa-cog"></i> Settings
                             </a>
                         @else

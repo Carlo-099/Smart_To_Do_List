@@ -46,9 +46,9 @@ Route::get('/read-feedback', function () {
     return view('Admin_view.ReadFeedback');
 })->name('read-feedback')->middleware('auth');
 
-Route::get('/setting', function(){
-    return view('Admin_view.setting');
-})->name('setting') ->middleware('auth');
+Route::get('/AdminSetting', function(){
+    return view('Admin_view.AdminSetting');
+})->name('AdminSetting') ->middleware('auth');
 
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
